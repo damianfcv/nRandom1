@@ -7,12 +7,12 @@
 */
 
 var numero = Math.random();
+var str    = "MAYOR que 0.5";
 
 if (numero <= 0.5) {
-    console.log("\n" + numero + " MENOR o igual que 0.5 \n");
+    str = " MENOR o igual que 0.5";
 }
-else {
-    console.log("\n" + numero + " MENOR que 0.5 \n");
-}
+
+console.log("\n" + numero + str + "\n");
 
 /* ************************** Fin de: r1_random.js ************************** */
